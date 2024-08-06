@@ -1,0 +1,13 @@
+[package]
+name = "zokrates_stdlib"
+version = "0.3.3"
+authors = ["Stefan Deml <stefandeml@gmail.com>", "schaeff <thibaut@schaeff.fr>"]
+edition = "2018"
+
+[dev-dependencies]
+zokrates_test = { version = "0.2", git = "https://github.com/Zokrates/ZoKrates", workspace = "zokrates_test", tag = "0.8.8" }
+
+[build-dependencies]
+fs_extra = "1.1.0"
+zokrates_test_derive = { version = "0.0", git = "https://github.com/Zokrates/ZoKrates", workspace = "zokrates_test_derive", tag = "0.8.8" }
+
